@@ -1,0 +1,53 @@
+/* Reset margin and padding for the entire document */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Center the content vertically and horizontally */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif; /* Fallback font */
+}
+
+.box {
+  text-align: center; /* Center align text within .box */
+  padding: 20px;
+  border: 1px solid #ccc; /* Optional border for better visibility */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700; /* Use a valid font weight */
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  margin: 10px auto; /* Center inputs and add space between them */
+  padding: 8px;
+  width: 100%; /* Full width for inputs */
+  max-width: 300px; /* Max width for inputs */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color for the button */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+h3, h4 {
+  margin: 20px 0; /* Space around headings */
+}
